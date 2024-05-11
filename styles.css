@@ -11,7 +11,7 @@ body {
 .centered-box {
     padding: 20px;
     background-color: black;
-    width: 256px;
+    width: 260px;
     border: 2px dashed white;
     text-align: left;
     display: grid;
