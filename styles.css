@@ -1,0 +1,54 @@
+body {
+    height: 100vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'DOSVGA', monospace;
+}
+
+.centered-box {
+    padding: 20px;
+    background-color: black;
+    width: 256px;
+    border: 2px dashed white;
+    text-align: left;
+    display: grid;
+    flex-direction: column;
+    align-items: initial;
+    border-radius: 10px;
+}
+
+.centered-box img {
+    border: 3px solid black;
+    border-radius: 50%;
+    width: 160px;
+    height: 160px;
+    margin: auto;
+}
+
+.centered-box a {
+    color: white;
+}
+
+@font-face {
+    font-family: 'DOSVGA';
+    src: url('fonts/PerfectDOSVGA437Win.woff2') format('woff2'),
+    url('fonts/PerfectDOSVGA437Win.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+.name {
+    text-align: center;
+    margin-bottom: 2px;
+    padding-bottom: 2px;
+    line-height: 1.1;
+}
+
+.byline {
+    text-align: center;
+    margin-top: 0;
+}
